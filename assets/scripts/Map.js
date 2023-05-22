@@ -16,7 +16,7 @@ class Map{
     this.pathExists = false;
     while(this.pathExists == false){
       // Create Visualization Matrix
-      this.initialize_test_matrix();
+      this.initialize_matrix();
       
       // Create Agent
       this.agent_pos_x = floor(random(cols));
